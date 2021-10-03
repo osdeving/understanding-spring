@@ -22,8 +22,8 @@ public class MessageSupportFactory {
 		try {
 			properties.load(this.getClass().getResourceAsStream("/message-factory.properties"));
 
-			String rendererClass = properties.getProperty("renderer.class.name");
-			String providerClass = properties.getProperty("provider.class.name");
+			String rendererClass = properties.getProperty("message.renderer.class.name");
+			String providerClass = properties.getProperty("message.provider.class.name");
 
 			renderer = (MessageRenderer) Class.forName(rendererClass).newInstance();
 			provider = (MessageProvider) Class.forName(providerClass).newInstance();
