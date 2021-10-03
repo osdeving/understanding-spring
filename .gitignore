@@ -1,0 +1,29 @@
+/.idea/.name
+/.idea/compiler.xml
+/.idea/encodings.xml
+/.idea/jarRepositories.xml
+/.idea/misc.xml
+/.idea/runConfigurations.xml
+/.idea/sonarIssues.xml
+/.idea/vcs.xml
+/.idea/workspace.xml
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
